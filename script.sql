@@ -12,4 +12,4 @@ select max(Price) from cakes;
 select avg(Price) from cakes;
 select upper(cakename) from cakes;
 select * from cakes where Price>500;
-
+drop table cakes;
