@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run SQL Script') {
             steps {
-                sh 'mysql -u root -p1234 company < script.sql'
+                bat 'mysql -u root -p1234 company < script.sql'
             }
         }
 
