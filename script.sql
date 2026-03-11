@@ -1,4 +1,3 @@
-create database cakeshop;
 create table cakes(s_no int(4) PRIMARY KEY,cakename varchar(16),Price int(4));
 describe cakes;
 insert into cakes( cakename,Price) values('Mangocake',500);
@@ -10,3 +9,4 @@ select max(Price) from cakes;
 select avg(Price) from cakes;
 select upper(cakename) from cakes;
 select * from cakes where Price>500;
+
